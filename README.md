@@ -16,52 +16,52 @@ Repository for NLP Course Project
 - k_cross_validation : evaluates the Unigram Naive bayesian model for 10-fold
 - predictor.py : uses saved pickles to predict for a given review
 
-# Results
--fold1 started
- total+ve : 450,total-ve : 450,total+veWords: 170798,totalUnique+ve: 20255,total-veWords: 159459,totalUnique-ve: 19387,totalUnique: 16978
-GivenNegreviews: 50
-ObtainedNegreviews: 56
-GivenPosreviews: 50
-ObtainedPosreviews: 44
-CorrectCount is :72
-WrongCount is :28
-CorrectPoCount is :33
-CorrectNegCount is :39
-Accuracy is : 72.0%
--fold2 started
- total+ve : 450,total-ve : 450,total+veWords: 167079,totalUnique+ve: 20192,total-veWords: 158300,totalUnique-ve: 19380,totalUnique: 16880
-GivenNegreviews: 50
-ObtainedNegreviews: 51
-GivenPosreviews: 50
-ObtainedPosreviews: 49
-CorrectCount is :81
-WrongCount is :19
-CorrectPoCount is :40
-CorrectNegCount is :41
-Accuracy is : 81.0%
--fold3 started
- total+ve : 450,total-ve : 450,total+veWords: 169681,totalUnique+ve: 20325,total-veWords: 158937,totalUnique-ve: 19483,totalUnique: 16915
-GivenNegreviews: 50
-ObtainedNegreviews: 57
-GivenPosreviews: 50
-ObtainedPosreviews: 43
-CorrectCount is :81
-WrongCount is :19
-CorrectPoCount is :37
-CorrectNegCount is :44
-Accuracy is : 81.0%
--fold4 started
- total+ve : 450,total-ve : 450,total+veWords: 169364,totalUnique+ve: 20265,total-veWords: 158969,totalUnique-ve: 19382,totalUnique: 16879
-GivenNegreviews: 50
-ObtainedNegreviews: 54
-GivenPosreviews: 50
-ObtainedPosreviews: 46
-CorrectCount is :84
-WrongCount is :16
-CorrectPoCount is :40
-CorrectNegCount is :44
-Accuracy is : 84.0%
--fold5 started
+## Results
+# fold1 started
+ - total+ve : 450,total-ve : 450,total+veWords: 170798,totalUnique+ve: 20255,total-veWords: 159459,totalUnique-ve: 19387,totalUnique: 16978
+- GivenNegreviews: 50
+- ObtainedNegreviews: 56
+- GivenPosreviews: 50
+- ObtainedPosreviews: 44
+- CorrectCount is :72
+- WrongCount is :28
+- CorrectPoCount is :33
+- CorrectNegCount is :39
+- Accuracy is : 72.0%
+# fold2 started
+- total+ve : 450,total-ve : 450,total+veWords: 167079,totalUnique+ve: 20192,total-veWords: 158300,totalUnique-ve: 19380,totalUnique: 16880
+- GivenNegreviews: 50
+- ObtainedNegreviews: 51
+- GivenPosreviews: 50
+- ObtainedPosreviews: 49
+- CorrectCount is :81
+- WrongCount is :19
+- CorrectPoCount is :40
+- CorrectNegCount is :41
+- Accuracy is : 81.0%
+# fold3 started
+- total+ve : 450,total-ve : 450,total+veWords: 169681,totalUnique+ve: 20325,total-veWords: 158937,totalUnique-ve: 19483,totalUnique: 16915
+- GivenNegreviews: 50
+- ObtainedNegreviews: 57
+- GivenPosreviews: 50
+- ObtainedPosreviews: 43
+- CorrectCount is :81
+- WrongCount is :19
+- CorrectPoCount is :37
+- CorrectNegCount is :44
+- Accuracy is : 81.0%
+# fold4 started
+- total+ve : 450,total-ve : 450,total+veWords: 169364,totalUnique+ve: 20265,total-veWords: 158969,totalUnique-ve: 19382,totalUnique: 16879
+- GivenNegreviews: 50
+- ObtainedNegreviews: 54
+- GivenPosreviews: 50
+- ObtainedPosreviews: 46
+- CorrectCount is :84
+- WrongCount is :16
+- CorrectPoCount is :40
+- CorrectNegCount is :44
+- Accuracy is : 84.0%
+# fold5 started
  total+ve : 450,total-ve : 450,total+veWords: 170647,totalUnique+ve: 20380,total-veWords: 158933,totalUnique-ve: 19348,totalUnique: 16865
 GivenNegreviews: 50
 ObtainedNegreviews: 61
