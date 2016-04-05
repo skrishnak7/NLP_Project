@@ -16,7 +16,7 @@ Repository for NLP Course Project
 - k_cross_validation : evaluates the Unigram Naive bayesian model for 10-fold
 - predictor.py : uses saved pickles to predict for a given review
 
-## Results
+# Results
 # fold1 
  - total+ve : 450,total-ve : 450,total+veWords: 170798,totalUnique+ve: 20255,total-veWords: 159459,totalUnique-ve: 19387,totalUnique: 16978
 - GivenNegreviews: 50
@@ -30,7 +30,7 @@ Repository for NLP Course Project
 - Accuracy is : 72.0%
 
 # fold2 
-- total+ve : 450,total-ve : 450,total+veWords: 167079,totalUnique+ve: 20192,total-veWords: 158300,totalUnique-ve: 19380,totalUnique: 16880
+ - total+ve : 450,total-ve : 450,total+veWords: 167079,totalUnique+ve: 20192,total-veWords: 158300,totalUnique-ve: 19380,totalUnique: 16880
 - GivenNegreviews: 50
 - ObtainedNegreviews: 51
 - GivenPosreviews: 50
@@ -42,7 +42,7 @@ Repository for NLP Course Project
 - Accuracy is : 81.0%
 
 # fold3 
-- total+ve : 450,total-ve : 450,total+veWords: 169681,totalUnique+ve: 20325,total-veWords: 158937,totalUnique-ve: 19483,totalUnique: 16915
+ - total+ve : 450,total-ve : 450,total+veWords: 169681,totalUnique+ve: 20325,total-veWords: 158937,totalUnique-ve: 19483,totalUnique: 16915
 - GivenNegreviews: 50
 - ObtainedNegreviews: 57
 - GivenPosreviews: 50
@@ -54,7 +54,7 @@ Repository for NLP Course Project
 - Accuracy is : 81.0%
 
 # fold4 
-- total+ve : 450,total-ve : 450,total+veWords: 169364,totalUnique+ve: 20265,total-veWords: 158969,totalUnique-ve: 19382,totalUnique: 16879
+ - total+ve : 450,total-ve : 450,total+veWords: 169364,totalUnique+ve: 20265,total-veWords: 158969,totalUnique-ve: 19382,totalUnique: 16879
 - GivenNegreviews: 50
 - ObtainedNegreviews: 54
 - GivenPosreviews: 50
@@ -66,7 +66,7 @@ Repository for NLP Course Project
 - Accuracy is : 84.0%
 
 # fold5 
-- total+ve : 450,total-ve : 450,total+veWords: 170647,totalUnique+ve: 20380,total-veWords: 158933,totalUnique-ve: 19348,totalUnique: 16865
+ - total+ve : 450,total-ve : 450,total+veWords: 170647,totalUnique+ve: 20380,total-veWords: 158933,totalUnique-ve: 19348,totalUnique: 16865
 - GivenNegreviews: 50
 - ObtainedNegreviews: 61
 - GivenPosreviews: 50
@@ -78,7 +78,7 @@ Repository for NLP Course Project
 - Accuracy is : 75.0%
 
 # fold6 
-- total+ve : 450,total-ve : 450,total+veWords: 169192,totalUnique+ve: 20137,total-veWords: 159195,totalUnique-ve: 19351,totalUnique: 16829
+ - total+ve : 450,total-ve : 450,total+veWords: 169192,totalUnique+ve: 20137,total-veWords: 159195,totalUnique-ve: 19351,totalUnique: 16829
 - GivenNegreviews: 50
 - ObtainedNegreviews: 57
 - GivenPosreviews: 50
@@ -90,7 +90,7 @@ Repository for NLP Course Project
 - Accuracy is : 79.0%
 
 # fold7 
-- total+ve : 450,total-ve : 450,total+veWords: 167762,totalUnique+ve: 20213,total-veWords: 159322,totalUnique-ve: 19450,totalUnique: 16909
+ - total+ve : 450,total-ve : 450,total+veWords: 167762,totalUnique+ve: 20213,total-veWords: 159322,totalUnique-ve: 19450,totalUnique: 16909
 - GivenNegreviews: 50
 - ObtainedNegreviews: 56
 - GivenPosreviews: 50
@@ -102,7 +102,7 @@ Repository for NLP Course Project
 - Accuracy is : 82.0%
 
 # fold8 
-- total+ve : 450,total-ve : 450,total+veWords: 169723,totalUnique+ve: 20259,total-veWords: 158766,totalUnique-ve: 19320,totalUnique: 16925
+ - total+ve : 450,total-ve : 450,total+veWords: 169723,totalUnique+ve: 20259,total-veWords: 158766,totalUnique-ve: 19320,totalUnique: 16925
 - GivenNegreviews: 50
 - ObtainedNegreviews: 56
 - GivenPosreviews: 50
@@ -113,8 +113,8 @@ Repository for NLP Course Project
 - CorrectNegCount is :41
 - Accuracy is : 76.0%
 
-# fold9 started
-- total+ve : 450,total-ve : 450,total+veWords: 171145,totalUnique+ve: 20386,total-veWords: 159834,totalUnique-ve: 19495,totalUnique: 17043
+# fold9 
+ - total+ve : 450,total-ve : 450,total+veWords: 171145,totalUnique+ve: 20386,total-veWords: 159834,totalUnique-ve: 19495,totalUnique: 17043
 - GivenNegreviews: 50
 - ObtainedNegreviews: 57
 - GivenPosreviews: 50
@@ -125,8 +125,8 @@ Repository for NLP Course Project
 - CorrectNegCount is :45
 - Accuracy is : 83.0%
 
-# fold10 started
-- total+ve : 450,total-ve : 450,total+veWords: 170704,totalUnique+ve: 20264,total-veWords: 158720,totalUnique-ve: 19489,totalUnique: 16939
+# fold10 
+ - total+ve : 450,total-ve : 450,total+veWords: 170704,totalUnique+ve: 20264,total-veWords: 158720,totalUnique-ve: 19489,totalUnique: 16939
 - GivenNegreviews: 50
 - ObtainedNegreviews: 55
 - GivenPosreviews: 50
