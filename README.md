@@ -17,7 +17,7 @@ Repository for NLP Course Project
 - predictor.py : uses saved pickles to predict for a given review
 
 ## Results
-# fold1 started
+# fold1 
  - total+ve : 450,total-ve : 450,total+veWords: 170798,totalUnique+ve: 20255,total-veWords: 159459,totalUnique-ve: 19387,totalUnique: 16978
 - GivenNegreviews: 50
 - ObtainedNegreviews: 56
@@ -28,6 +28,7 @@ Repository for NLP Course Project
 - CorrectPoCount is :33
 - CorrectNegCount is :39
 - Accuracy is : 72.0%
+
 # fold2 started
 - total+ve : 450,total-ve : 450,total+veWords: 167079,totalUnique+ve: 20192,total-veWords: 158300,totalUnique-ve: 19380,totalUnique: 16880
 - GivenNegreviews: 50
