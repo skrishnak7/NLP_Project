@@ -3,7 +3,7 @@ Repository for the Natural Language Processing Course Project.
 
 ## Team Members
 - Avvaru Priyatham Kumar  B120766CS 
-- Koppisetti Satya Kumar  B120637cs
+- Koppisetti Satya Kumar  B120637CS
 - Saikrishna Kanukuntla   B120738CS
 
 # Contents
@@ -25,7 +25,7 @@ Repository for the Natural Language Processing Course Project.
 - fold8 : 95.0%
 - fold9 : 89.0%
 - fold10 : 88.0%
-- Avverage Accuracy : 91.3%
+- Avverage Accuracy : __91.3%__ 
 
 # Bigram Model
 - fold1 : 90.0%
@@ -38,5 +38,5 @@ Repository for the Natural Language Processing Course Project.
 - fold8 : 95.0%
 - fold9 : 93.0%
 - fold10 : 87.0%
-- Avverage Accuracy : 92.2%
+- Avverage Accuracy : __92.2%__ 
 
