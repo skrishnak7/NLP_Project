@@ -20,23 +20,23 @@ Repository for the Natural Language Processing Course Project.
 - fold3 : 90.0%
 - fold4 : 90.0%
 - fold5 : 91.0%
-- fold6 : 95.0%
+- fold6 : 94.0%
 - fold7 : 93.0%
 - fold8 : 95.0%
 - fold9 : 89.0%
 - fold10 : 88.0%
-- Avverage Accuracy : __91.3%__ 
+- Avverage Accuracy : __91.2%__ 
 
 # Bigram Model
-- fold1 : 90.0%
-- fold2 : 91.0%
-- fold3 : 94.0%
-- fold4 : 91.0%
-- fold5 : 93.0%
-- fold6 : 95.0%
+- fold1 : 91.0%
+- fold2 : 94.0%
+- fold3 : 91.0%
+- fold4 : 93.0%
+- fold5 : 90.0%
+- fold6 : 96.0%
 - fold7 : 93.0%
-- fold8 : 95.0%
-- fold9 : 93.0%
-- fold10 : 87.0%
-- Avverage Accuracy : __92.2%__ 
+- fold8 : 92.0%
+- fold9 : 94.0%
+- fold10 : 86.0%
+- Avverage Accuracy : __92.0%__ 
 
