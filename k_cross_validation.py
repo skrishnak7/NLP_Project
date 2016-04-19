@@ -98,7 +98,7 @@ def train(K):
         	review=review.translate(replace_punctuation)
         	reviewf=getFeatureVector(review,stopWords)
 		for k in xrange(K):
-			if i%10!=k:	
+			if i%K!=k:	
         			if clas=='-':
         	    			totalWordsInNegClass[k]+=len(reviewf)
         			else:
@@ -116,7 +116,7 @@ def train(K):
 	#constructing vocabulary having count greater than 2
 	for word in uniqueWords:
 		for k in xrange(K):
-			if (uniqueWords[word][k][0]+uniqueWords[word][k][1])>=1:
+			if (uniqueWords[word][k][0]+uniqueWords[word][k][1])>=2:
 				vocab[k]+=1
 		for k in xrange(K):
 			uniqueWords[word][k][0]=np.log10((uniqueWords[word][k][0]+1.0)/(totalWordsInPosClass[k]+vocab[k]))

@@ -61,7 +61,7 @@ stopWords = getStopWordList('stopwords.txt')
 uniqueWords={}
 l = open("data.txt", "r").readlines()
 for row in l:
-	line = row.split(",")
+	line = row.split("\t")
 	review=line[1]
 	clas=line[0]
 	replace_punctuation = string.maketrans(string.punctuation, ' '*len(string.punctuation))

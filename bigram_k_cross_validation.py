@@ -138,7 +138,7 @@ def train(K):
 	for bigram in uniqueBigrams:
 		count=0
 		for k in xrange(K):
-			if (uniqueBigrams[bigram][k][0]+uniqueBigrams[bigram][k][1]<2):
+			if (uniqueBigrams[bigram][k][0]+uniqueBigrams[bigram][k][1]<3):
 				count+=1
 		if(count==K):
 			delList.append(bigram)
@@ -236,8 +236,8 @@ def accuracyFinder(test,k):
 		neg_prob=0	
         	for n in range(1,len(reviewf)):
 			bigram =reviewf[n-1]+" "+reviewf[n]
-			posSmoothing=np.log10((uniqueWords[reviewf[n-1]][k][0]+1.0)/(totalWordsInPosClass[k]+vocab[k]))
-			negSmoothing=np.log10((uniqueWords[reviewf[n-1]][k][1]+1.0)/(totalWordsInNegClass[k]+vocab[k]))
+			posSmoothing=np.log10((uniqueWords[reviewf[n]][k][0]+1.0)/(totalWordsInPosClass[k]+vocab[k]))
+			negSmoothing=np.log10((uniqueWords[reviewf[n]][k][1]+1.0)/(totalWordsInNegClass[k]+vocab[k]))
             		if bigram in uniqueBigrams:
 				neg_prob+=uniqueBigrams[bigram][k][1]
 				pos_prob+=uniqueBigrams[bigram][k][0]
